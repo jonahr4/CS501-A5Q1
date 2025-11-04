@@ -20,10 +20,7 @@ State Management
 - Home and detail screens read straight from the shared view model provided by MainActivity.
 
 AI Assistance
-- I used OpenAI’s ChatGPT (Codex CLI) for reference while wiring up navigation and state patterns.
-- The AI originally suggested navigating to "detail/{id}" without including the dynamic id in the route pattern, causing unresolved arguments. I corrected this by defining the route as `"${Routes.Detail.route}/{recipeId}"` and reading the id from backStackEntry.
-- It also tried to create the view model inside a composable with viewModel(), but this project keeps things simple, so I hoisted the RecipeViewModel to MainActivity instead.
-- ChatGPT helped me polish the Markdown layout for this README.
+- I used ChatGPT for reference while wiring up navigation and state patterns.
+- It tried to create the view model inside a composable with viewModel(), but this project keeps things simple, so I hoisted the RecipeViewModel to MainActivity instead.
+- ChatGPT helped me polish the Markdown layout for this README and throughout the cope .
 
-Repository
-- https://github.com/jonahrothman/CS501-A5Q1
